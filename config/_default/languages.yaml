@@ -1,0 +1,43 @@
+en:
+  languageName: English
+  # title: My Web Site
+  weight: 10
+  menu:
+    main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 10
+    - identifier: post
+      name: Posts
+      url: /post
+      weight: 50
+    - identifier: about
+      name: About
+      url: /about
+      weight: 100
+  params:
+    navigation:
+      help: Help
+
+es:
+  languageName: Español
+  title: Sitio Web Básico Hugo
+  weight: 20
+  menu:
+    main:
+    - identifier: home
+      name: Inicio
+      url: /
+      weight: 10
+    - identifier: post
+      name: Artículos
+      url: /post
+      weight: 50
+    - identifier: about
+      name: Sobre
+      url: /about
+      weight: 100
+  params:
+    navigation:
+      help: Ayuda

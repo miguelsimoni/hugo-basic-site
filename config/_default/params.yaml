@@ -1,0 +1,26 @@
+dateFormat: 2006.01.02
+author: Miguel Simoni
+showSubheader: false
+
+copyright:
+  sinceYear: 2020
+  owner: Miguel Simoni
+
+breadcrumb:
+  showCurrent: true
+  divider: ''
+
+bootswatch:
+  enabled: false
+  theme: spacelab
+
+# OpenGraph
+title: "My cool site"
+description: "Text about my cool site"
+images: ["site-feature-image.jpg"]
+
+# Google Analytics
+googleAnalytics: "UA-123-45"
+
+# Disqus
+disqusShortname: "yourdiscussshortname"
