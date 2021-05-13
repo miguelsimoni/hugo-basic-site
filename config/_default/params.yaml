@@ -1,6 +1,6 @@
 dateFormat: 2006.01.02
 author: Miguel Simoni
-showSubheader: false
+showSubheader: true
 
 copyright:
   sinceYear: 2020
@@ -10,9 +10,17 @@ breadcrumb:
   showCurrent: true
   divider: ''
 
+pagination:
+  loadMore: true
+
+# Bootswatch Themes
 bootswatch:
   enabled: false
   theme: spacelab
+# default   cerulean  cosmo     cyborg    darkly      flatly      journal   litera 
+# lumen     lux       materia   minty     morph       pulse       quartz    sandstone 
+# simplex   sketchy   slate     solar     spacelab    superhero   united    vapor
+# yeti      zephyr
 
 # OpenGraph
 title: "My cool site"
