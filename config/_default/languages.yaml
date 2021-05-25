@@ -12,6 +12,10 @@ en:
       name: Posts
       url: /post
       weight: 50
+    - identifier: contact
+      name: Contact
+      url: /contact
+      weight: 90
     - identifier: about
       name: About
       url: /about
@@ -38,6 +42,10 @@ es:
       name: Sobre
       url: /about
       weight: 100
+    - identifier: contact
+      name: Contacto
+      url: /contact
+      weight: 110
   params:
     navigation:
       help: Ayuda
