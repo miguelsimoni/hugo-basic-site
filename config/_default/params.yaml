@@ -1,6 +1,6 @@
 dateFormat: 2006.01.02
 author: Miguel Simoni
-showSubheader: true
+showSubheader: false
 
 copyright:
   sinceYear: 2020
@@ -9,7 +9,7 @@ copyright:
 languagesMenuEnabled: true
 
 breadcrumb:
-  showCurrent: true
+  showCurrent: false
   divider: ''
 
 pagination:
@@ -34,3 +34,9 @@ googleAnalytics: "UA-123-45"
 
 # Disqus
 disqusShortname: "yourdiscussshortname"
+
+contact:
+  formAction: http://localhost:1313/
+  validation:
+    namePattern: ^[a-zA-Z]{3,}[a-zA-Z\s\-]*$
+    emailPattern: ^[a-zA-Z0-9_\-\.]+@[a-zA-Z0-9_\-]+\.[a-zA-Z]{2,4}(\.[a-zA-Z]{2})?$
