@@ -15,14 +15,10 @@ breadcrumb:
 pagination:
   loader: true
 
-# Bootswatch Themes
-bootswatch:
-  enabled: false
-  theme: spacelab
-# default   cerulean  cosmo     cyborg    darkly      flatly      journal   litera 
-# lumen     lux       materia   minty     morph       pulse       quartz    sandstone 
-# simplex   sketchy   slate     solar     spacelab    superhero   united    vapor
-# yeti      zephyr
+# Bootstrap Themes
+theme:
+  # static: default # available themes in data/themes.yml
+  selector: true
 
 # OpenGraph
 title: "My cool site"
