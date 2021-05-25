@@ -40,3 +40,8 @@ contact:
   validation:
     namePattern: ^[a-zA-Z]{3,}[a-zA-Z\s\-]*$
     emailPattern: ^[a-zA-Z0-9_\-\.]+@[a-zA-Z0-9_\-]+\.[a-zA-Z]{2,4}(\.[a-zA-Z]{2})?$
+
+background:
+  image: "../images/background-astro.png"
+  parallax: true
+  speed: 10
