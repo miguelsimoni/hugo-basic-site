@@ -6,19 +6,19 @@ en:
     main:
     - identifier: home
       name: Home
-      url: /
+      url: ""
       weight: 10
     - identifier: post
       name: Posts
-      url: /post
+      url: post
       weight: 50
     - identifier: contact
       name: Contact
-      url: /contact
+      url: contact
       weight: 90
     - identifier: about
       name: About
-      url: /about
+      url: about
       weight: 100
   params:
     navigation:
@@ -32,19 +32,19 @@ es:
     main:
     - identifier: home
       name: Inicio
-      url: /
+      url: ""
       weight: 10
     - identifier: post
       name: Artículos
-      url: /post
+      url: post
       weight: 50
     - identifier: about
       name: Sobre
-      url: /about
+      url: about
       weight: 100
     - identifier: contact
       name: Contacto
-      url: /contact
+      url: contact
       weight: 110
   params:
     navigation:
