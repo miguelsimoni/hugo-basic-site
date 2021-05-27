@@ -31,8 +31,42 @@ googleAnalytics: "UA-123-45"
 # Disqus
 disqusShortname: "yourdiscussshortname"
 
+# Social Networks
+social:
+  - network: twitter
+    link: "#"
+    icon: "fab fa-twitter-square fa-3x"
+  - network: facebook
+    link: "#"
+    icon: "fab fa-facebook-square fa-3x"
+  - network: instagram
+    link: "#"
+    icon: "fab fa-instagram-square fa-3x"
+  - network: github
+    link: "#"
+    icon: "fab fa-github-square fa-3x"
+  - network: medium
+    link: "#"
+    icon: "fab fa-medium fa-3x"
+  - network: linkedin
+    link: "#"
+    icon: "fab fa-linkedin fa-3x"
+  - network: twitch
+    link: "#"
+    icon: "fab fa-twitch fa-3x"
+  - network: youtube
+    link: "#"
+    icon: "fab fa-youtube-square fa-3x"
+  - network: reddit
+    link: "#"
+    icon: "fab fa-reddit-square fa-3x"
+  - network: whatsapp
+    link: "#"
+    icon: "fab fa-whatsapp-square fa-3x"
+
+# Contact Form
 contact:
-  formAction: http://localhost:1313/
+  formAction: "#"
   validation:
     namePattern: ^[a-zA-Z]{3,}[a-zA-Z\s\-]*$
     emailPattern: ^[a-zA-Z0-9_\-\.]+@[a-zA-Z0-9_\-]+\.[a-zA-Z]{2,4}(\.[a-zA-Z]{2})?$
