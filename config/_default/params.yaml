@@ -25,11 +25,8 @@ title: "My cool site"
 description: "Text about my cool site"
 images: ["site-feature-image.jpg"]
 
-# Google Analytics
-googleAnalytics: "UA-123-45"
-
-# Disqus
-disqusShortname: "yourdiscussshortname"
+# ShareThis
+# sharethisProperty: sharethis-property
 
 # Social Networks
 social:
@@ -64,12 +61,17 @@ social:
     link: "#"
     icon: "fab fa-whatsapp-square fa-3x"
 
-# Contact Form
-contact:
-  formAction: "#"
+# Forms
+form:
   validation:
     namePattern: ^[a-zA-Z]{3,}[a-zA-Z\s\-]*$
     emailPattern: ^[a-zA-Z0-9_\-\.]+@[a-zA-Z0-9_\-]+\.[a-zA-Z]{2,4}(\.[a-zA-Z]{2})?$
+    telephonePattern: ^[\+\(\)\-\d]+$
+  recaptcha:
+    v2:
+      siteKey: 6LcwgoMiAAAAAAODQdhmoRl-FdlnoWvj47LZSp8I
+  contact:
+    action: https://formspree.io/f/maykbglg
 
 background:
   image: "../images/background-astro.png"

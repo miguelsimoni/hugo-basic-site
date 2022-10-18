@@ -18,3 +18,9 @@ taxonomies:
   category: categories
   tag: tags
   series: series
+
+# Google Analytics
+# googleAnalytics: G-0123456789
+
+# Disqus
+# disqusShortname: disqus-shortname

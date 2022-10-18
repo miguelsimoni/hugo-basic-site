@@ -25,7 +25,33 @@ en:
       help: Help
 
 es:
-  languageName: Español
+  languageName: Español (España)
+  title: Sitio Web Básico Hugo
+  weight: 20
+  menu:
+    main:
+    - identifier: home
+      name: Inicio
+      url: ""
+      weight: 10
+    - identifier: post
+      name: Artículos
+      url: post
+      weight: 50
+    - identifier: about
+      name: Sobre
+      url: about
+      weight: 100
+    - identifier: contact
+      name: Contacto
+      url: contact
+      weight: 110
+  params:
+    navigation:
+      help: Ayuda
+
+es-419:
+  languageName: Español (Latam)
   title: Sitio Web Básico Hugo
   weight: 20
   menu:

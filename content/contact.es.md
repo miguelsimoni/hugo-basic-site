@@ -1,6 +1,7 @@
 ---
 type: contact
 title: Contáctanos
+form: true
 ---
 
-Envíanos un mensaje completanto la información solicitada abajo y presionando el botón Enviar.
+Envíanos un mensaje completando la información solicitada abajo y presionando el botón Enviar.
